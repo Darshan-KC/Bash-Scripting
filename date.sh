@@ -13,3 +13,11 @@ echo $d
 d=$(date +%A)
 echo "Name of the week day in full form"
 echo $d
+
+d=$(date +%b)
+echo "Name of the month in short form"
+echo $d
+
+d=$(date +%B)
+echo "Name of the month in full form"
+echo $d
