@@ -21,3 +21,11 @@ echo $d
 d=$(date +%B)
 echo "Name of the month in full form"
 echo $d
+
+d=$(date +%H)
+echo "Hour in 24 hour clock format"
+echo $d 
+
+d=$(date +%I)
+echo "Hour in 12 hour clock format"
+echo $d
