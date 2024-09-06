@@ -29,3 +29,11 @@ echo $d
 d=$(date +%I)
 echo "Hour in 12 hour clock format"
 echo $d
+
+d=$(date +%Y)
+echo "Display the full year "
+echo $d 
+
+d=$(date +%Z)
+echo "Display the Timezone (e.g. IST, GMT, NST)"
+echo $d
