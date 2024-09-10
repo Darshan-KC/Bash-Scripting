@@ -1,6 +1,13 @@
 # Basic arthimetic operator
 
 #! /bin/bash
-
-Sum = $(13 + 3)
+a=8
+b=2
+sum=$((a + b))
 echo "Sum = $sum"
+
+sub=$((a - b))
+echo "Difference = $sub"
+
+mul=$((a * b))
+echo "Multiplication = $mul"
