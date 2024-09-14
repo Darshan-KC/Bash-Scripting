@@ -36,3 +36,9 @@ fi
 if [ 10 -eq 9 ] ; then
     echo "10 isn't equal to 9."
 fi
+
+# if if-condition file exists and have execute permission
+
+if [ -x if-condition.sh ]; then
+    echo "File exist and have execute permission"
+fi
