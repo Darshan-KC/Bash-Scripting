@@ -7,4 +7,10 @@ read -p "Yes/No? :" Answer
 
 case $Answer in
  Yes|yes|Y|y)
+ echo "That's amazing."
+ ;;
+ No|no|N|n)
+ echo "It's easy. Let's start learning from today."
+ ;;
+esac
  
