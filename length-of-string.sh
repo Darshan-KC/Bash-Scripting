@@ -10,6 +10,14 @@
 
 str="Ram Bahadur"
 
-length=${#str}
+## Method 1 
+
+# length=${#str}
+
+# echo "The length of '$str' is '$length'"
+
+## Method 2
+
+length=`expr length "$str"`
 
 echo "The length of '$str' is '$length'"
