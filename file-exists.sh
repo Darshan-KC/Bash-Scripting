@@ -5,9 +5,18 @@
 File="txt/read_file.txt"
 
 # Method 1
-if [ -f "$File" ];
+# if [ -f "$File" ];
+# then
+#     echo "$File exists"
+# else
+#     echo "$File doesn't exists"
+# fi 
+
+
+# Method 2
+if test -f "$File";
 then
     echo "$File exists"
 else
     echo "$File doesn't exists"
-fi 
+fi
