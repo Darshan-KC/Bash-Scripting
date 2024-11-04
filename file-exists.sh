@@ -14,9 +14,14 @@ File="txt/read_file.txt"
 
 
 # Method 2
-if test -f "$File";
-then
-    echo "$File exists"
-else
-    echo "$File doesn't exists"
-fi
+# if test -f "$File";
+# then
+#     echo "$File exists"
+# else
+#     echo "$File doesn't exists"
+# fi
+
+
+# Method 3
+
+[[ -f "$File" ]] && { echo "$File exists"; echo "completed"; } || echo "$File doesn't exists"
